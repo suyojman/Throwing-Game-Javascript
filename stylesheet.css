@@ -1,0 +1,40 @@
+#bigCanvas{
+    border: 2px solid black;
+    border-top: 0;
+    float: left;
+    position: relative;
+    
+    
+}
+
+h1{
+    text-align: left;
+    margin-left: 350px;
+}
+
+.container{
+    margin: auto;
+}
+
+#arrow{
+    width: 20px;
+    height: 20px;
+    top:520px;
+    left:10px;
+    position: absolute;
+    z-index: -1;
+    background-image: url(image/fire.GIF);
+    background-color:black;
+    border-radius:50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#box{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}

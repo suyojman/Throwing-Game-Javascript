@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+    <title>Arrow Game</title>
+
+    <!--Linking CSS File-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body onload="resetScore()">
+    
+        <!--Title Heading-->
+        <h1>Stone Throwing Game</h1>
+
+        <!--Creating the Canvas Element-->
+        <canvas height="500px" width="1000px" id="bigCanvas"></canvas>
+
+        <div  id="arrow"></div>
+
+        <div id="box"></div>
+
+
+        <!--Input field for Score ,Angle,Speed-->
+        Score :
+        <input type="text" value="0" id="score"> Angle :
+        <input type="" name="" id="angle" value="45"> Speed :
+        <input type="" name="" id="speed" value="100">
+
+        <!--Button to fire Projectile-->
+        <button onclick="fireProjectile()"> Release </button>
+
+        <!--Button to generate -->
+        <button onclick="resetScore()">Reset</button>
+
+        <!--Image for the canvas-->
+        <img id="person"  src="./image/person.jpg" alt="person">
+
+
+    <!--JavaScript Code-->
+    <script src="javascript1.js"></script>
+</body>
+
+</html>
